@@ -31,26 +31,35 @@ Test Data Distribution
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/img/test.png)
 
 ## Training
-The entire model was fine tuned for 5 epochs with training loss reaching to 0.59 on Mac M1-pro with 32gb of memory.
+The entire model was fine tuned for 5 epochs with training loss reaching to 0.59 on Mac M1-pro with 32gb of memory. It took around 45 mins for 1688 images to run single training epoch 
 
 ## Results
 
+#### Image 1
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/results/gif_frame_118.jpg)
 
+#### Image 2
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/results/gif_frame_119.jpg)
 
+#### Image 3
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/results/gif_frame_110.jpg)
 
+#### Image 4
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/results/gif_frame_111.jpg)
 
+#### Image 5
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/results/gif_frame_112.jpg)
 
+#### Image 6
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/results/gif_frame_113.jpg)
 
+#### Image 7
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/results/gif_frame_114.jpg)
 
+#### Image 8
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/results/gif_frame_115.jpg)
 
+#### Image 9
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/results/gif_frame_116.jpg)
 
 ## Future Works
