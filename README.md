@@ -10,6 +10,25 @@ It could potentially be used to rank web page layouts based upon the quality of 
 To detect and classify elements of web page, deep learning object detection method has been used. I have fine tuned ResNet50 based SSD model which was pretrained on coco dataset and taken from tensorflow-garden.
 
 ## Dataset
+The dataset was taken from [](!https://public.roboflow.com/object-detection/website-screenshots)
+There were 8 lables in the whole data:
+- Button
+- Field
+- iFrame
+- Image
+- Heading
+- Label
+- Link
+- Text
+
+Train Data Distribution
+![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/img/train.png)
+
+Val Data Distribution
+![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/img/val.png)
+
+Test Data Distribution
+![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/img/test.png)
 
 ## Training
 The entire model was fine tuned for 5 epochs with training loss reaching to 0.59 on Mac M1-pro with 32gb of memory.
@@ -35,6 +54,7 @@ The entire model was fine tuned for 5 epochs with training loss reaching to 0.59
 ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/results/gif_frame_116.jpg)
 
 ## Future Works
+Limited by the time and resource the model was not optimized to accuracy. By tweaking architecture and running the trainings for more number of epochs, better results can be achieved.
 
 ## Acknowledgements
-
+![RoboFlow](https://public.roboflow.com/object-detection/website-screenshots)
