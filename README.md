@@ -21,14 +21,9 @@ There were 8 lables in the whole data:
 - Link
 - Text
 
-Train Data Distribution
-![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/img/train.png)
-
-Val Data Distribution
-![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/img/val.png)
-
-Test Data Distribution
-![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/img/test.png)
+Train Data Distribution | Val Data Distribution | Test Data Distribution
+:---: | :---: | :---:
+![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/img/train.png) | ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/img/val.png) | ![](https://github.com/Ayush-Mi/Evaluating_WebPage_UI/blob/main/img/test.png)
 
 ## Training
 The entire model was fine tuned for 5 epochs with training loss reaching to 0.59 on Mac M1-pro with 32gb of memory. It took around 45 mins for 1688 images to run single training epoch 
